@@ -1,0 +1,446 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16331 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/GAD170/Brief 3 - Witchies Little adventure/Lydia's short adventure
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51946
+Successfully changed project path to: E:/GAD170/Brief 3 - Witchies Little adventure/Lydia's short adventure
+E:/GAD170/Brief 3 - Witchies Little adventure/Lydia's short adventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 85.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/GAD170/Brief 3 - Witchies Little adventure/Lydia's short adventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   27.20.22016.2
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010654 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 77.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.642 seconds
+Domain Reload Profiling:
+	ReloadAssembly (642ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (453ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (102ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (68ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008016 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\GAD170\Brief 3 - Witchies Little adventure\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\GAD170\Brief 3 - Witchies Little adventure\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.085 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1085ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (759ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (359ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3827.
+Memory consumption went from 115.9 MB to 115.8 MB.
+Total: 3.975000 ms (FindLiveObjects: 0.387700 ms CreateObjectMapping: 0.094600 ms MarkObjects: 3.352500 ms  DeleteObjects: 0.138500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013717 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\GAD170\Brief 3 - Witchies Little adventure\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\GAD170\Brief 3 - Witchies Little adventure\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.056 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1056ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (801ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3496 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (4.0 MB). Loaded Objects now: 3922.
+Memory consumption went from 127.5 MB to 123.6 MB.
+Total: 4.932200 ms (FindLiveObjects: 0.441400 ms CreateObjectMapping: 0.104000 ms MarkObjects: 2.927900 ms  DeleteObjects: 1.457000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62771.901092 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv09.mat
+  artifactKey: Guid(f787b1b6b94cd924083596cec3729246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv09.mat using Guid(f787b1b6b94cd924083596cec3729246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f587e776a6c155e8308e5c82e82352e7') in 0.460765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv04.mat
+  artifactKey: Guid(244b27ac404eb314b925fa45909d0f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv04.mat using Guid(244b27ac404eb314b925fa45909d0f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09ca169ff324c4f5d53a596e35dfab3') in 0.295198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv01.mat
+  artifactKey: Guid(416d15cd169c5a0468b8346abad16527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv01.mat using Guid(416d15cd169c5a0468b8346abad16527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70de14966fed5fecc333e034ef075a8') in 0.059034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv06Gamma.mat
+  artifactKey: Guid(8a63bbbf86c4d7545b8e3a680862d24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv06Gamma.mat using Guid(8a63bbbf86c4d7545b8e3a680862d24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91d64dc824de6dbafb259f2db0f4933') in 0.035324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv07Gamma.mat
+  artifactKey: Guid(a525c3e871901354181ee90abbff4eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv07Gamma.mat using Guid(a525c3e871901354181ee90abbff4eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35188e79e606424b92748b018b2309e2') in 0.041326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv09Gamma.mat
+  artifactKey: Guid(5737b2a2145f48246a0d68aca5630fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv09Gamma.mat using Guid(5737b2a2145f48246a0d68aca5630fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109220e18dd32123332d3e068fff0a94') in 0.034206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv08.mat
+  artifactKey: Guid(1cb88bcd5fd39a444a8eaeb672b588be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv08.mat using Guid(1cb88bcd5fd39a444a8eaeb672b588be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e7f47dfa9c85a6e4b97627f7176a39') in 0.032272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv03Gamma.mat
+  artifactKey: Guid(fe6fed4c1eab68741bbde3083c3fa986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv03Gamma.mat using Guid(fe6fed4c1eab68741bbde3083c3fa986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cef1c83bb1f5bfd507f4e6f423b3953') in 0.025908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.183704 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_18_2_Metals.mat
+  artifactKey: Guid(118675f9ee3b22c43a2f8841d6206b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_18_2_Metals.mat using Guid(118675f9ee3b22c43a2f8841d6206b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494a549ff67def0bc707a6e6d29610a8') in 0.262683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_34_2_Tiles.mat
+  artifactKey: Guid(ebabfdf81fc72414f9921cfe2ed4b652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_34_2_Tiles.mat using Guid(ebabfdf81fc72414f9921cfe2ed4b652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3759c69af9447eea133b21f3c42e2bf') in 0.185485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_67_3_Tile.mat
+  artifactKey: Guid(b45a15fff385e4a46ab2bf7a9b0214e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_67_3_Tile.mat using Guid(b45a15fff385e4a46ab2bf7a9b0214e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b7725c2c387b09574181bfb9fcfa59') in 0.026853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_81_3_Sci-fi.mat
+  artifactKey: Guid(d12d326c7ff660a40aed23b21d98c6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_81_3_Sci-fi.mat using Guid(d12d326c7ff660a40aed23b21d98c6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b0b176b9f9137feebb88e063251d2d') in 0.242011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.746651 seconds.
+  path: Assets/Blink/Art/Textures/StylizedForestTextures/Grass_Mud/Grass_Mud.mat
+  artifactKey: Guid(aa687d57e9cbd134b8545550b4ab507c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Textures/StylizedForestTextures/Grass_Mud/Grass_Mud.mat using Guid(aa687d57e9cbd134b8545550b4ab507c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd92de8be94543459e55869af21bf4a') in 0.249026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Blink/Art/Textures/StylizedDesertTextures/Rocks_1_Sand_3/Rock_1_Sand_3.mat
+  artifactKey: Guid(ce3f0d46186f9384ab5a022a44a4082e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Textures/StylizedDesertTextures/Rocks_1_Sand_3/Rock_1_Sand_3.mat using Guid(ce3f0d46186f9384ab5a022a44a4082e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fe69cbdc0b433bd238306671f2f0fa') in 0.030487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.364976 seconds.
+  path: Assets/Flat Textures Pack/Materials/Cave_Cracks.mat
+  artifactKey: Guid(7f61e96487dd8084480def67ee56f766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Cave_Cracks.mat using Guid(7f61e96487dd8084480def67ee56f766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb152dc40b1994c939153d9164ca15c') in 0.102203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Flat Textures Pack/Materials/Cave_Magma.mat
+  artifactKey: Guid(520938bf13624b04fb159c3db7351aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Cave_Magma.mat using Guid(520938bf13624b04fb159c3db7351aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1f1d038c17681223c829e00d3ebbba') in 0.014202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Flat Textures Pack/Materials/Summer_Grass_A.mat
+  artifactKey: Guid(fe40329174e9720479ab77410cc459ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Summer_Grass_A.mat using Guid(fe40329174e9720479ab77410cc459ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e82fb260b92605d3bde926364ad3a57') in 0.017232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Flat Textures Pack/Materials/Summer_Roses.mat
+  artifactKey: Guid(363270fb71ae7aa45ac7c91408bbe012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Summer_Roses.mat using Guid(363270fb71ae7aa45ac7c91408bbe012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c66c57eeea04825944d2dfee57ce7cc') in 0.015319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Flat Textures Pack/Materials/Desert_Bushes.mat
+  artifactKey: Guid(a08dad81b78f42e489c9703efc2c1fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Desert_Bushes.mat using Guid(a08dad81b78f42e489c9703efc2c1fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4db31ddb415f8b593fef829a26f7fb0') in 0.016387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Flat Textures Pack/Materials/Desert_Tiles.mat
+  artifactKey: Guid(0420eef65a9103241abca4e53c4d74bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Desert_Tiles.mat using Guid(0420eef65a9103241abca4e53c4d74bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e61340c9e63ecb5faff2ad03825a67') in 0.028443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Flat Textures Pack/Materials/Cave_GoldenPebbles.mat
+  artifactKey: Guid(a63a8692330ab5f4dbb2761bf7924361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Cave_GoldenPebbles.mat using Guid(a63a8692330ab5f4dbb2761bf7924361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de5a210f91ba2d00cbeeeab8f5c5537') in 0.024921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Flat Textures Pack/Materials/Summer_Roots.mat
+  artifactKey: Guid(2a81fb5b4c7ffd34a86add061bd2f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Summer_Roots.mat using Guid(2a81fb5b4c7ffd34a86add061bd2f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf6a3a942a138cc7b396944fefd6c6b') in 0.023872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Flat Textures Pack/Materials/Cave_FireGround.mat
+  artifactKey: Guid(058595cb07ad23946a0a151be620489b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Cave_FireGround.mat using Guid(058595cb07ad23946a0a151be620489b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a202d705b57be65a4711a67465201f83') in 0.054382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Flat Textures Pack/Materials/Summer_Mud_A.mat
+  artifactKey: Guid(a272687875e64684daa5f944e711872d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Summer_Mud_A.mat using Guid(a272687875e64684daa5f944e711872d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42eb199c0e6203d962029e0baa4f1ea') in 0.026678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Flat Textures Pack/Materials/Desert_Sand.mat
+  artifactKey: Guid(3b85b3f360cf9ec43bec0706d0a03147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Desert_Sand.mat using Guid(3b85b3f360cf9ec43bec0706d0a03147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e6350b226acfa8e3ac42adbcf36156') in 0.020680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Flat Textures Pack/Materials/Summer_Dirt_A.mat
+  artifactKey: Guid(865b305109e555749a4c8609b545998d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Summer_Dirt_A.mat using Guid(865b305109e555749a4c8609b545998d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9d64bd9ce3615f02a2cfdc21087920') in 0.055937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Flat Textures Pack/Materials/Cave_Spores.mat
+  artifactKey: Guid(364df4398afe01c4cbbe3bc100bcfcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Cave_Spores.mat using Guid(364df4398afe01c4cbbe3bc100bcfcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8667e2469b40c5f780a3b6d4419c55a3') in 0.024220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Flat Textures Pack/Materials/Desert_CracedMud.mat
+  artifactKey: Guid(9c499f1f265a28748a3f4ccecb05c8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Desert_CracedMud.mat using Guid(9c499f1f265a28748a3f4ccecb05c8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae813263d8b6f09a09bc8e6ec6859924') in 0.022727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Flat Textures Pack/Materials/Summer_Rocks.mat
+  artifactKey: Guid(b448f0b66ddeb424097cf4c3aede85fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Summer_Rocks.mat using Guid(b448f0b66ddeb424097cf4c3aede85fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadb46be4c03ac9f8a9fcdec51d0798f') in 0.018888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.029438 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_c.mat
+  artifactKey: Guid(243e02ef9af9fc447af061196ff8b232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_c.mat using Guid(243e02ef9af9fc447af061196ff8b232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46286624949c00ad980828618d6f6be3') in 0.050114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_k.mat
+  artifactKey: Guid(d4450b6019a3e2845841f082fea067be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_k.mat using Guid(d4450b6019a3e2845841f082fea067be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7fb61ff1205eecc70d92b5bdbf7850') in 0.039680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_l.mat
+  artifactKey: Guid(63ad41232ad5c9746b0a38dfceb1d670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_l.mat using Guid(63ad41232ad5c9746b0a38dfceb1d670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99aeb7b581b942f4abec87b5afbf890e') in 0.022754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_j.mat
+  artifactKey: Guid(cf68ab15dbcdebb4e9085054f4d55445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_j.mat using Guid(cf68ab15dbcdebb4e9085054f4d55445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4314e50db210acc1fd46243fb28864f8') in 0.054021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_o.mat
+  artifactKey: Guid(cd7fefa18c116a0468e71c7228fdb74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_o.mat using Guid(cd7fefa18c116a0468e71c7228fdb74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90c87ff3cf675ede324207dedb6ebd9') in 0.028866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_n.mat
+  artifactKey: Guid(7e1f0a568364bdc489b47dd82253a14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_n.mat using Guid(7e1f0a568364bdc489b47dd82253a14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b518def6bf786855d411b1675cbd3b5') in 0.019346 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

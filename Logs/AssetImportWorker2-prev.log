@@ -1,0 +1,326 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16331 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+E:/GAD170/Brief 3 - Witchies Little adventure/Lydia's short adventure
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51946
+Successfully changed project path to: E:/GAD170/Brief 3 - Witchies Little adventure/Lydia's short adventure
+E:/GAD170/Brief 3 - Witchies Little adventure/Lydia's short adventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 86.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/GAD170/Brief 3 - Witchies Little adventure/Lydia's short adventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   27.20.22016.2
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012377 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 79.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.642 seconds
+Domain Reload Profiling:
+	ReloadAssembly (642ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (456ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (76ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009539 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\GAD170\Brief 3 - Witchies Little adventure\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\GAD170\Brief 3 - Witchies Little adventure\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.044 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1045ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (720ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3827.
+Memory consumption went from 115.9 MB to 115.8 MB.
+Total: 3.267100 ms (FindLiveObjects: 0.324900 ms CreateObjectMapping: 0.100600 ms MarkObjects: 2.742900 ms  DeleteObjects: 0.097500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013924 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\GAD170\Brief 3 - Witchies Little adventure\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\GAD170\Brief 3 - Witchies Little adventure\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.054 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1054ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (790ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3496 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (4.0 MB). Loaded Objects now: 3922.
+Memory consumption went from 127.5 MB to 123.6 MB.
+Total: 4.920700 ms (FindLiveObjects: 0.429200 ms CreateObjectMapping: 0.099600 ms MarkObjects: 3.082800 ms  DeleteObjects: 1.307700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62771.876921 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Meshes/Materials/TranslucentCrystal01.mat
+  artifactKey: Guid(5662fed03a864504f8e4a9c489b1b70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Meshes/Materials/TranslucentCrystal01.mat using Guid(5662fed03a864504f8e4a9c489b1b70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0041178ca534ce53c4140acb2da2fe66') in 0.249931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGridv02.mat
+  artifactKey: Guid(cc153c35e3a45fd4585125f118a91126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGridv02.mat using Guid(cc153c35e3a45fd4585125f118a91126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf44be97ad9f6b2751b5863a2f84403') in 0.026234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Meshes/Materials/TranslucentCrystal.mat
+  artifactKey: Guid(98b9485a3da80d64598ed3d04774afdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Meshes/Materials/TranslucentCrystal.mat using Guid(98b9485a3da80d64598ed3d04774afdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8af2076f32d1cf312b5326f720b7b1') in 0.264226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv02Gamma.mat
+  artifactKey: Guid(c6e18e7c3a9e23d428e61bfad6ba7d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv02Gamma.mat using Guid(c6e18e7c3a9e23d428e61bfad6ba7d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba57d3f5a497bf09ef9a478d0da9584') in 0.037856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv07.mat
+  artifactKey: Guid(7dc61041e72c10b4c84ff3c93efbc5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv07.mat using Guid(7dc61041e72c10b4c84ff3c93efbc5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee3bdc104d61d58071791551bc242bf') in 0.258663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv05Gamma.mat
+  artifactKey: Guid(1f3530bb86258a24eb67ed886f93dbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv05Gamma.mat using Guid(1f3530bb86258a24eb67ed886f93dbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e3d6a0564a0724165fdc2c59bf5988') in 0.091956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv03.mat
+  artifactKey: Guid(39ccf0ab7d0ea904783d9a3f199ee241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv03.mat using Guid(39ccf0ab7d0ea904783d9a3f199ee241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cb591f411e5bb45e92355c7dd19015') in 0.037034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv06.mat
+  artifactKey: Guid(944e2786b388ae64bb652b63f50a6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Materials/TranslucentCrystalv06.mat using Guid(944e2786b388ae64bb652b63f50a6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1333032c8d41a3de6f2a210a3c52d69e') in 0.040250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGridv01.mat
+  artifactKey: Guid(cce4daf3bbd4bcb4fab49b956ee8af2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGridv01.mat using Guid(cce4daf3bbd4bcb4fab49b956ee8af2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e211e6f0d3be4ad3344358e974a6dad') in 0.023787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.189510 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_2_3_Wood.mat
+  artifactKey: Guid(e2782bd09fb749e4f8c457cb9c8cc6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_2_3_Wood.mat using Guid(e2782bd09fb749e4f8c457cb9c8cc6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d53dcbde860bc27d7d4adaf681a513') in 0.260524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_27_4_Lava.mat
+  artifactKey: Guid(7ea77b3e49c1d61409582be7e98d0d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_27_4_Lava.mat using Guid(7ea77b3e49c1d61409582be7e98d0d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bf733e22285555340b3af45a35feb3') in 0.041248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_23_1_Rocks.mat
+  artifactKey: Guid(43ca10b6d3421d546832de715a9d893f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_23_1_Rocks.mat using Guid(43ca10b6d3421d546832de715a9d893f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3646a09567a08f577f4675c37b87c102') in 0.022184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_49_5_Rocks.mat
+  artifactKey: Guid(67436367136736141b5c7e131555c4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_49_5_Rocks.mat using Guid(67436367136736141b5c7e131555c4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94fd012c2ad600ddfcdea359094d915') in 0.157826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_26_2_Cliffs.mat
+  artifactKey: Guid(0c2d13c3615510e4a8debaef5c39c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_26_2_Cliffs.mat using Guid(0c2d13c3615510e4a8debaef5c39c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfaa99e44561655229c913a9fba486a') in 0.038021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_35_3_Lava.mat
+  artifactKey: Guid(b7bcd7c6b3acb3241b0d5af1a358b19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_35_3_Lava.mat using Guid(b7bcd7c6b3acb3241b0d5af1a358b19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4843ecec7f31cda6c3fbf2a60545e4') in 0.131936 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
