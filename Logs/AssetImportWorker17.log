@@ -1,0 +1,560 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16331 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker17
+-projectPath
+C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
+-logFile
+Logs/AssetImportWorker17.log
+-srvPort
+63604
+Successfully changed project path to: C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
+C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 111.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   27.20.22016.2
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012918 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 96.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Domain Reload Profiling:
+	ReloadAssembly (718ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (507ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (76ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010823 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ebony Bloodmoon\OneDrive\Documents\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ebony Bloodmoon\OneDrive\Documents\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.162 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1163ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (134ms)
+		EndReloadAssembly (799ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.2 KB). Loaded Objects now: 3894.
+Memory consumption went from 121.3 MB to 121.2 MB.
+Total: 3.224400 ms (FindLiveObjects: 0.351500 ms CreateObjectMapping: 0.096100 ms MarkObjects: 2.603800 ms  DeleteObjects: 0.172000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 328496.267508 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Prefabs/FloorPlate.prefab
+  artifactKey: Guid(73b951167a4f87143a773bd234a88a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Prefabs/FloorPlate.prefab using Guid(73b951167a4f87143a773bd234a88a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563263b606a8d62ca20a1aa75343d17d') in 0.211500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.551066 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Prefabs/Walls
+  artifactKey: Guid(eed9d538bbe24294985af536e1245af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Prefabs/Walls using Guid(eed9d538bbe24294985af536e1245af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cde17f9c454734356361f921758033') in 0.003181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.871740 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Materials
+  artifactKey: Guid(18e463c66d0df404c9b0272f1aa80958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Materials using Guid(18e463c66d0df404c9b0272f1aa80958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5f171813ff1c16bf60f5df9437d88f') in 0.002384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058708 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Materials/ModuleMat.mat
+  artifactKey: Guid(bb734f1a8af709447a78950804a3ef9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Materials/ModuleMat.mat using Guid(bb734f1a8af709447a78950804a3ef9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aff62610d1d0d1b74e9f14f9efbe9a2') in 0.034985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.228174 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Prefabs
+  artifactKey: Guid(873bc8adbbff47342ac088d869d7085e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Prefabs using Guid(873bc8adbbff47342ac088d869d7085e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9a5edb1660d8ba2164d57f557476f9') in 0.002786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.791581 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/ICornerBL.prefab
+  artifactKey: Guid(6686209b879f2e542a738bccadfee53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/ICornerBL.prefab using Guid(6686209b879f2e542a738bccadfee53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d477fe42d8cd80c857e886b5930814') in 0.015901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002167 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/LineL.prefab
+  artifactKey: Guid(31c06dd294ebd674e89ee2bea1b248fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/LineL.prefab using Guid(31c06dd294ebd674e89ee2bea1b248fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff307500565958629547d415910d87d') in 0.013398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/OCornerTL.prefab
+  artifactKey: Guid(db141ab4adfbf864e85b4ae1497e2557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/OCornerTL.prefab using Guid(db141ab4adfbf864e85b4ae1497e2557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c664cacf32bf20107df0dd0926b75b3b') in 0.015755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/LineB.prefab
+  artifactKey: Guid(c176cf22d920131479bc7413f52893bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/LineB.prefab using Guid(c176cf22d920131479bc7413f52893bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c0839db1bbbc76a623f460c0f7bb59') in 0.014993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/OCornerTR.prefab
+  artifactKey: Guid(e57641148b84fb14ca1513db97137800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/OCornerTR.prefab using Guid(e57641148b84fb14ca1513db97137800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b1abdae7a55a57a95124c9b9879a7e') in 0.013685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/OCornerBR.prefab
+  artifactKey: Guid(14601ab8dcd5a744297f7d0fac1c6cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/OCornerBR.prefab using Guid(14601ab8dcd5a744297f7d0fac1c6cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1531701be479ec229978e83bde9f57') in 0.012608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/ICornerTR.prefab
+  artifactKey: Guid(99eaf3b707a8cbc469ed8e59b799f0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/ICornerTR.prefab using Guid(99eaf3b707a8cbc469ed8e59b799f0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9d0d8b97c67d1067c63bee05f4ca9e') in 0.012498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/LineT.prefab
+  artifactKey: Guid(1fed59b29af1cfc4f86a38afcdc96414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/LineT.prefab using Guid(1fed59b29af1cfc4f86a38afcdc96414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e330b38b4febfdacc3148feaeca0a9e0') in 0.011836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/LineR.prefab
+  artifactKey: Guid(883c815c4de70ae4db9a20fb93bc1b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/LineR.prefab using Guid(883c815c4de70ae4db9a20fb93bc1b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc5a316f4c7ab54ea5fd29a00712760') in 0.011549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/ICornerTL.prefab
+  artifactKey: Guid(7e81ea0479acded4d8d1412b81b928e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/ICornerTL.prefab using Guid(7e81ea0479acded4d8d1412b81b928e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f706cb836ec35273496574c2c1b87797') in 0.011594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/OCornerBL.prefab
+  artifactKey: Guid(9fff9e71bf22275448a66cb358b057c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/OCornerBL.prefab using Guid(9fff9e71bf22275448a66cb358b057c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456987a550ecbedd90283e25e03802c9') in 0.012970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.495394 seconds.
+  path: Assets/Modelsandtextures/AllSkyFree
+  artifactKey: Guid(639cf48862b9c344c89573cce1b5b80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/AllSkyFree using Guid(639cf48862b9c344c89573cce1b5b80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c94bbeff5227ec5bd23e844ebbc162') in 0.002593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.547968 seconds.
+  path: Assets/Modelsandtextures/c_xiao_huo_long1
+  artifactKey: Guid(4c6f35fd68a87614495f1fbfa5559287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/c_xiao_huo_long1 using Guid(4c6f35fd68a87614495f1fbfa5559287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cef3d63b272f5ca7b576aaf6ad6b3e2') in 0.002361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.876155 seconds.
+  path: Assets/Modelsandtextures/Dungeon Floor Traps
+  artifactKey: Guid(775aab25ba5f2dd49af19b56a9b21f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Dungeon Floor Traps using Guid(775aab25ba5f2dd49af19b56a9b21f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa5564493d76646715c73337a29b06b') in 0.003182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.356584 seconds.
+  path: Assets/Modelsandtextures/DungeonTools
+  artifactKey: Guid(9a916c6f1fa0b2b41a284aa50da61587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools using Guid(9a916c6f1fa0b2b41a284aa50da61587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5eed2b4f079354a6e467484d4fcce36') in 0.002569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.906080 seconds.
+  path: Assets/Modelsandtextures/Free Fantasy Adventure Music Pack
+  artifactKey: Guid(29cbe98aec1d4fc48ad33f4556f55b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Free Fantasy Adventure Music Pack using Guid(29cbe98aec1d4fc48ad33f4556f55b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8937db875ec63e5859e8f88dc2ae2af4') in 0.002771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.641246 seconds.
+  path: Assets/Modelsandtextures/Kawaii Slimes
+  artifactKey: Guid(19263ffe6a36f12439237d0562da577b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Kawaii Slimes using Guid(19263ffe6a36f12439237d0562da577b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e77240316fa3cc9b17b167a6f8ccf9') in 0.003354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.316182 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames
+  artifactKey: Guid(3ddd17b81dda03a4bb93847ed9a35cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames using Guid(3ddd17b81dda03a4bb93847ed9a35cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1328fee20bae028e572ed6e694f51a05') in 0.002429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.615427 seconds.
+  path: Assets/Modelsandtextures
+  artifactKey: Guid(c944687237e916c4db3a074acab04fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures using Guid(c944687237e916c4db3a074acab04fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f7735529b2de466960b38c5694661e') in 0.002880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.081031 seconds.
+  path: Assets/Modelsandtextures/Character Models
+  artifactKey: Guid(90cfefd3501f92d43addea3617ad1d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Character Models using Guid(90cfefd3501f92d43addea3617ad1d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb70e7ccf65b1dbe20e2eaad00335f1') in 0.003033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.721652 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon
+  artifactKey: Guid(6551f29723718d6449fad42509706a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon using Guid(6551f29723718d6449fad42509706a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585e9e4dbf063bf2af1c29601702ae19') in 0.002659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.281399 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art
+  artifactKey: Guid(d8edf5098c93405469816e67c177b004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art using Guid(d8edf5098c93405469816e67c177b004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efac385a384c1c6e69e6948fa6b6aaee') in 0.002280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.843149 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials
+  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22697197e1b26f0cedd0ba13d55cf5e3') in 0.003058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060279 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Demo_DividerArch.mat
+  artifactKey: Guid(0e17ca02169e0e14a89f3a33c0c53544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Demo_DividerArch.mat using Guid(0e17ca02169e0e14a89f3a33c0c53544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa782b1a0289e0e6e21d9c620b3ebbe') in 0.025895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/StonePillarv2.mat
+  artifactKey: Guid(be17ec8314058484d87c90a8eac77d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/StonePillarv2.mat using Guid(be17ec8314058484d87c90a8eac77d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3877331b14d0359ff7e304f8c1abde67') in 0.026002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/StoneFloorv2.mat
+  artifactKey: Guid(141e66b8ea6b36740a45456c3be8ae5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/StoneFloorv2.mat using Guid(141e66b8ea6b36740a45456c3be8ae5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd872785abe79e3d0b07d9fa9c40afcb') in 0.019560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Path_Mat.mat
+  artifactKey: Guid(a56c1114d2d3fb04eab40c23f1368c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Path_Mat.mat using Guid(a56c1114d2d3fb04eab40c23f1368c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d51f0282fb5dc6ee80a6d94b21a75bf') in 0.012892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Wall_Mat.mat
+  artifactKey: Guid(719cff66ea2d5dd4cb5f431f63ff7432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Wall_Mat.mat using Guid(719cff66ea2d5dd4cb5f431f63ff7432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88b68b5312e8eebec9747eb4a6a583f') in 0.010291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/LockedDoor.mat
+  artifactKey: Guid(854c9c4f8a69bb340967d8207db3d5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/LockedDoor.mat using Guid(854c9c4f8a69bb340967d8207db3d5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df25f629a084003c8497719bcedce99d') in 0.015697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/FakeKey.mat
+  artifactKey: Guid(d2c335571c5ec9d47a9e8b80b4c3d9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/FakeKey.mat using Guid(d2c335571c5ec9d47a9e8b80b4c3d9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d74716b3c3f1ce1654a5b3b974124a') in 0.011420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Stone_wall.mat
+  artifactKey: Guid(998acb4a4a649614884cec1c3af1bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Stone_wall.mat using Guid(998acb4a4a649614884cec1c3af1bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f01e57cad32537052f489731c9771a') in 0.011102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Key_mesh_baked.mat
+  artifactKey: Guid(bb40b37d5308ceb4eb06cadbc5ecf220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Key_mesh_baked.mat using Guid(bb40b37d5308ceb4eb06cadbc5ecf220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743ec5c2ec1469a425ad6a7c4504260c') in 0.014602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Demo_Floor.mat
+  artifactKey: Guid(3ddfbad41fd09c043a7fe054c16854f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Demo_Floor.mat using Guid(3ddfbad41fd09c043a7fe054c16854f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bfa12641ff1dcbed305d92bd14da28') in 0.028623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.889228 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures
+  artifactKey: Guid(7ec5879157c1b0f4d91d81c6e729a7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures using Guid(7ec5879157c1b0f4d91d81c6e729a7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb39ee37cd0dc586851ee8da295993b0') in 0.002272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043432 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DividerWallArchPaint_pbr_diffuse.png
+  artifactKey: Guid(116063838e51799408c7d48fc5fe6085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DividerWallArchPaint_pbr_diffuse.png using Guid(116063838e51799408c7d48fc5fe6085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e0800490727a8ea386fed753279e3c') in 0.102694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_WallArchPaint_pbr_diffuse.png
+  artifactKey: Guid(0b7fde7efce601e4e85c807d9587ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_WallArchPaint_pbr_diffuse.png using Guid(0b7fde7efce601e4e85c807d9587ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7845d1211ad5601d8142ae139fc21de') in 0.018899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Stone_FloorPaint_Bake1_pbr_roughness.png
+  artifactKey: Guid(7a4cc2f6ab54e2f4dbedacaf39c93b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Stone_FloorPaint_Bake1_pbr_roughness.png using Guid(7a4cc2f6ab54e2f4dbedacaf39c93b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd972b2ce098de12cff2a0d595dfad95e') in 0.009328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DoorPaint_pbr_normal.png
+  artifactKey: Guid(8a619769ba7f9b944812cd5a96836f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DoorPaint_pbr_normal.png using Guid(8a619769ba7f9b944812cd5a96836f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea8a9c39e90132e2011feb738ff8e3d') in 0.020604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DividerWallWindowsPaint_pbr_normal.png
+  artifactKey: Guid(456be65b5de8e9e4e8326a230be88d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DividerWallWindowsPaint_pbr_normal.png using Guid(456be65b5de8e9e4e8326a230be88d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888f7b407573ea5f6bb9d068288a9824') in 0.017937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Key_diffuse.png
+  artifactKey: Guid(04209ac1e589cdc41bab934a89f817c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Key_diffuse.png using Guid(04209ac1e589cdc41bab934a89f817c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0118385efc29f8ce6ed617f57d8833d7') in 0.013908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Stone_FloorPaint_Bake1_pbr_normal.png
+  artifactKey: Guid(2bace66546280dc4da6fe49340ad9f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Stone_FloorPaint_Bake1_pbr_normal.png using Guid(2bace66546280dc4da6fe49340ad9f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10756da00e38c20decc49566e351939b') in 0.017056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_WallArchPaint_pbr_roughness.png
+  artifactKey: Guid(64d3deb1e0b61644c969c69354e2f7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_WallArchPaint_pbr_roughness.png using Guid(64d3deb1e0b61644c969c69354e2f7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86728787e91a2119f0619fed011a6a4') in 0.016526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_WallPaint_pbr_roughness.png
+  artifactKey: Guid(8660c9d5ff9b0df4a9f8bc932cd6b15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_WallPaint_pbr_roughness.png using Guid(8660c9d5ff9b0df4a9f8bc932cd6b15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ce8a4a21534c3a48a1db812701e708') in 0.014589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_PillarPaint_pbr_diffuse.png
+  artifactKey: Guid(69f3033c363c85f4780270ebb2c4fa30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_PillarPaint_pbr_diffuse.png using Guid(69f3033c363c85f4780270ebb2c4fa30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f692b54960bb654f7ef1e1ebe659ee') in 0.012264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.741599 seconds.
+  path: Assets/Modelsandtextures/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5648c5ef36b7beab651a001a8d08867') in 0.003046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.865452 seconds.
+  path: Assets/Modelsandtextures/Free Fantasy Adventure Music Pack/Abandoned_Village__Short.wav
+  artifactKey: Guid(0643908ea2a90c341a1f488fb302af76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Free Fantasy Adventure Music Pack/Abandoned_Village__Short.wav using Guid(0643908ea2a90c341a1f488fb302af76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa36b7b9e5c39849ceac8ce633a816a') in 0.068953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modelsandtextures/Free Fantasy Adventure Music Pack/Battle_Lost__6s.wav
+  artifactKey: Guid(f5df88227c97c1a40b82c54b711f4f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Free Fantasy Adventure Music Pack/Battle_Lost__6s.wav using Guid(f5df88227c97c1a40b82c54b711f4f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad702bcd59d45d4093ab0c182e7f028') in 0.014580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.228078 seconds.
+  path: Assets/Modelsandtextures/Enviroment
+  artifactKey: Guid(f0fafa89563fb9f4cb5a95537d5e9f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Enviroment using Guid(f0fafa89563fb9f4cb5a95537d5e9f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05e8ae43d6cf96a824f174d9ddcd7b6') in 0.003337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 419.910578 seconds.
+  path: Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Materials/Dungeon_Floor_Trap_Grid.mat
+  artifactKey: Guid(0fe9382f4a6cfc24fabab1f27ce1e7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Materials/Dungeon_Floor_Trap_Grid.mat using Guid(0fe9382f4a6cfc24fabab1f27ce1e7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964ce93f7323b8d2fbd58b271e08160a') in 0.262146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Materials/Dungeon_Floor_Traps.mat
+  artifactKey: Guid(087ee8fa582e07c48bee90563a94a107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Materials/Dungeon_Floor_Traps.mat using Guid(087ee8fa582e07c48bee90563a94a107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c13831cdec0772fa1ff1324e6d60e0') in 0.036565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.607321 seconds.
+  path: Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Grid_AlbedoTransparency.png
+  artifactKey: Guid(49a1b388e8fbf83428b55da7e37b2478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Grid_AlbedoTransparency.png using Guid(49a1b388e8fbf83428b55da7e37b2478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e306fc8deb5ba246e34298138eedf1e8') in 0.011503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006162 seconds.
+  path: Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Grid_Emission.png
+  artifactKey: Guid(fd1d8b05f6f2b7e4c8161aaffb67b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Grid_Emission.png using Guid(fd1d8b05f6f2b7e4c8161aaffb67b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f650f7caae001c9e69d6dbcfe0da8db2') in 0.011526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Round_MetallicSmoothness.png
+  artifactKey: Guid(6e7f63ff537011b498ffb81e8e4cdae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Round_MetallicSmoothness.png using Guid(6e7f63ff537011b498ffb81e8e4cdae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f031e3c0197836f87aa8c241e3c7f72') in 0.015831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Star_AO.png
+  artifactKey: Guid(ad820d8b231e9264e8df7badd97432b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Star_AO.png using Guid(ad820d8b231e9264e8df7badd97432b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a1ec4e01757eac4addb6f48eb086e2') in 0.012424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Star_Emission.png
+  artifactKey: Guid(122a38ca0df250b4ab27507da446c460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Star_Emission.png using Guid(122a38ca0df250b4ab27507da446c460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21da8e312d9698adf6b655fe3ea7fe7c') in 0.017050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Star_MetallicSmoothness.png
+  artifactKey: Guid(1801bc5e74f81054aa7ce3c656fbc1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Star_MetallicSmoothness.png using Guid(1801bc5e74f81054aa7ce3c656fbc1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6ab6c42b3c45966bc783128de8781b') in 0.015720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Round_Normal.png
+  artifactKey: Guid(e60dc16a45235bf4bb67ccd03340ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Round_Normal.png using Guid(e60dc16a45235bf4bb67ccd03340ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ede0c42b29cc357f8893f6928dc905') in 0.012988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Round_AlbedoTransparency.png
+  artifactKey: Guid(516861f7beb9ed54a93c848eb5578e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Enviroment/Dungeon Floor Traps/Textures/Dungeon_Floor_Trap_Round_AlbedoTransparency.png using Guid(516861f7beb9ed54a93c848eb5578e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df49e3a730a9c59cdca87e448a7446db') in 0.013529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.506194 seconds.
+  path: Assets/Modelsandtextures/Enviroment/Tileable_Pack_01/Textures/Cracked_Earth.png
+  artifactKey: Guid(a1f372d918cef534f93c52499d30feed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Enviroment/Tileable_Pack_01/Textures/Cracked_Earth.png using Guid(a1f372d918cef534f93c52499d30feed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1dbe5035963a666de694b51afd0c83') in 0.009903 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,428 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16331 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+63604
+Successfully changed project path to: C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
+C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 108.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   27.20.22016.2
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010455 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 93.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Domain Reload Profiling:
+	ReloadAssembly (666ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (479ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (100ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (76ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013364 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ebony Bloodmoon\OneDrive\Documents\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ebony Bloodmoon\OneDrive\Documents\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.206 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1206ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (867ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3508 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 3963.
+Memory consumption went from 131.8 MB to 130.5 MB.
+Total: 4.262200 ms (FindLiveObjects: 0.350900 ms CreateObjectMapping: 0.107200 ms MarkObjects: 3.440900 ms  DeleteObjects: 0.361900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 321266.181902 seconds.
+  path: Assets/png assests
+  artifactKey: Guid(da36faeb690153f48a87e0a1e12c4553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png assests using Guid(da36faeb690153f48a87e0a1e12c4553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b736e9c4df999541d91a738e7956be') in 0.011108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.118188 seconds.
+  path: Assets/png assests/5a29ababed5750.5096369415126803639722.png
+  artifactKey: Guid(61db4763cec74c949af85bdc2fdbfd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png assests/5a29ababed5750.5096369415126803639722.png using Guid(61db4763cec74c949af85bdc2fdbfd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2047de43dc1855417a8585867757219') in 0.090444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.245011 seconds.
+  path: Assets/pexels-francesco-ungaro-998641.jpg
+  artifactKey: Guid(77b857b5ec86b024aaba4c18c76b577d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pexels-francesco-ungaro-998641.jpg using Guid(77b857b5ec86b024aaba4c18c76b577d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86faeb511b9e6b17817971b5aa62f1d0') in 0.013902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.472092 seconds.
+  path: Assets/Textures/fx_Magiccircle_a.mat
+  artifactKey: Guid(d0660e0a17c4d3f4e88c02d1bee28083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/fx_Magiccircle_a.mat using Guid(d0660e0a17c4d3f4e88c02d1bee28083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed8dd826250a439df91c167905f1969') in 0.058652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.455970 seconds.
+  path: Assets/Textures/Vol_42_1_Vegetation.mat
+  artifactKey: Guid(9c3435b7cf3210044b3a24266d8aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Vol_42_1_Vegetation.mat using Guid(9c3435b7cf3210044b3a24266d8aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aecfceb855f3fc7a9f03ceb1e91f037') in 0.028251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 176.226540 seconds.
+  path: Assets/png assests/kisspng-alchemy-magic-circle-fullmetal-alchemist-art-magic-circle-5abbbddaea3ec0.5272428815222532749595.png
+  artifactKey: Guid(1b6e29762e848374caabfbfbc9771477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png assests/kisspng-alchemy-magic-circle-fullmetal-alchemist-art-magic-circle-5abbbddaea3ec0.5272428815222532749595.png using Guid(1b6e29762e848374caabfbfbc9771477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085806d37a654d35161932d90d91b73f') in 0.017741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.994770 seconds.
+  path: Assets/kisspng-circle-human-transmutation-alchemy-tattoo-nuclear-5af0f24bcb7f55.9999803915257401078335.png
+  artifactKey: Guid(994f11d3bef13164c849d4037e264e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kisspng-circle-human-transmutation-alchemy-tattoo-nuclear-5af0f24bcb7f55.9999803915257401078335.png using Guid(994f11d3bef13164c849d4037e264e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4148232f691613dc0428af2dcfd9c3c5') in 0.010409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.737636 seconds.
+  path: Assets/kisspng-fullmetal-alchemist-the-alchemyst-the-secrets-of-5b3d193bc614d7.6783496115307308118114.png
+  artifactKey: Guid(cc0a231e16df78a439ed28fb1e2012b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kisspng-fullmetal-alchemist-the-alchemyst-the-secrets-of-5b3d193bc614d7.6783496115307308118114.png using Guid(cc0a231e16df78a439ed28fb1e2012b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad6222ba1ee0a27c0b1e7aeba6e21e0') in 0.011338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.579897 seconds.
+  path: Assets/kisspng-fullmetal-alchemist-the-alchemyst-the-secrets-of-5b3d193bc614d7.-2041057182.png
+  artifactKey: Guid(50f38960b1ad92d46b3d62dedff87561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kisspng-fullmetal-alchemist-the-alchemyst-the-secrets-of-5b3d193bc614d7.-2041057182.png using Guid(50f38960b1ad92d46b3d62dedff87561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2fa7f394936474fb84f04d138806c6') in 0.009782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.778040 seconds.
+  path: Assets/5a29c8438347c5.2286382215126876835377.png
+  artifactKey: Guid(0e03ddf2d66890c4c9fa384f6b82efdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5a29c8438347c5.2286382215126876835377.png using Guid(0e03ddf2d66890c4c9fa384f6b82efdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2636402265146a23a354e4d45c989af4') in 0.009858 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011449 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ebony Bloodmoon\OneDrive\Documents\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ebony Bloodmoon\OneDrive\Documents\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Domain Reload Profiling:
+	ReloadAssembly (977ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (726ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3521 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.9 MB). Loaded Objects now: 4041.
+Memory consumption went from 136.5 MB to 134.5 MB.
+Total: 4.054700 ms (FindLiveObjects: 0.341900 ms CreateObjectMapping: 0.090300 ms MarkObjects: 2.947200 ms  DeleteObjects: 0.673800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 539.853932 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b1bc7d2d81f5bbdb4c3a9d7c38d310') in 0.138239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0a93a7aaef57c9930bc88f08ad3e80') in 0.100370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.414049 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0991bf30953dc7c493966fdd74781c07') in 0.066907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.446470 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7929f5be2105e4440b8597bef96ee282') in 0.017333 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012817 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ebony Bloodmoon\OneDrive\Documents\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ebony Bloodmoon\OneDrive\Documents\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Domain Reload Profiling:
+	ReloadAssembly (999ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (757ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (313ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (2.2 MB). Loaded Objects now: 4057.
+Memory consumption went from 137.8 MB to 135.6 MB.
+Total: 3.582000 ms (FindLiveObjects: 0.292300 ms CreateObjectMapping: 0.081900 ms MarkObjects: 2.286400 ms  DeleteObjects: 0.920500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 219.349286 seconds.
+  path: Assets/Kawaii Slimes/Models/Slimes/Slime_01.fbx
+  artifactKey: Guid(9981a4f80fb95b04fb9d36e07baa17cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii Slimes/Models/Slimes/Slime_01.fbx using Guid(9981a4f80fb95b04fb9d36e07baa17cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70aac2a93c7da722e007fe4410902596') in 0.134319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kawaii Slimes/Models/Slimes/Slime_03.fbx
+  artifactKey: Guid(a2f1a2a97ec26bb47825031d7f3e94f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii Slimes/Models/Slimes/Slime_03.fbx using Guid(a2f1a2a97ec26bb47825031d7f3e94f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0de0d83ce44a77b55f1ee5d178e8e13') in 0.027645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.259396 seconds.
+  path: Assets/Kawaii Slimes/Models/Top/Crown.fbx
+  artifactKey: Guid(7f9934f54349dc2489d80b0298740ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii Slimes/Models/Top/Crown.fbx using Guid(7f9934f54349dc2489d80b0298740ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cba07b8e537d3dc653ef5d653aaaa1') in 0.096040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.325649 seconds.
+  path: Assets/Models/Character_Witch_Dragon/Models/ChaDragon/ChaDragon.fbx
+  artifactKey: Guid(db8b927f3205ca042a0e457646ad0300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character_Witch_Dragon/Models/ChaDragon/ChaDragon.fbx using Guid(db8b927f3205ca042a0e457646ad0300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5a8978cb0732f41aad7bb0a9d70a06') in 0.038062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Character_Witch_Dragon/Models/ChaDragon/Motions/MotDragon_Wait.fbx
+  artifactKey: Guid(49ee7253e59f3ce448385484944ed84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character_Witch_Dragon/Models/ChaDragon/Motions/MotDragon_Wait.fbx using Guid(49ee7253e59f3ce448385484944ed84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a1a6670cf8b48c483a092120fabefe') in 0.013658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Dungeon Floor Traps/Meshes/Dungeon_Floor_Traps_Mobile.fbx
+  artifactKey: Guid(266a12a9f31d4d8409e44c15acf6a15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Floor Traps/Meshes/Dungeon_Floor_Traps_Mobile.fbx using Guid(266a12a9f31d4d8409e44c15acf6a15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c35236ae6193aec63c09ec4c6f3c765') in 0.054686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Character_Witch_Dragon/Models/ChaDragon/Motions/MotDragon_Dead.fbx
+  artifactKey: Guid(7168a47ebc3d1ef488ef23e160c3e594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character_Witch_Dragon/Models/ChaDragon/Motions/MotDragon_Dead.fbx using Guid(7168a47ebc3d1ef488ef23e160c3e594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b5e5c7bd48909fff799538837f55ef') in 0.013872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Character_Witch_Dragon/Models/ChaDragon/Motions/MotDragon_Attack.fbx
+  artifactKey: Guid(487f9e8f586e51741ad315e140d9887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character_Witch_Dragon/Models/ChaDragon/Motions/MotDragon_Attack.fbx using Guid(487f9e8f586e51741ad315e140d9887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180346b732358dac21cedd7047424b1f') in 0.012995 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

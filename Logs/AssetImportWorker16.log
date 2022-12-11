@@ -1,0 +1,302 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16331 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker16
+-projectPath
+C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
+-logFile
+Logs/AssetImportWorker16.log
+-srvPort
+63604
+Successfully changed project path to: C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
+C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 111.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   27.20.22016.2
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013516 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 93.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Domain Reload Profiling:
+	ReloadAssembly (704ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (504ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (79ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010683 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ebony Bloodmoon\OneDrive\Documents\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ebony Bloodmoon\OneDrive\Documents\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.154 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1155ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (370ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.38 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.3 KB). Loaded Objects now: 3894.
+Memory consumption went from 121.5 MB to 121.4 MB.
+Total: 2.998200 ms (FindLiveObjects: 0.339800 ms CreateObjectMapping: 0.090800 ms MarkObjects: 2.454700 ms  DeleteObjects: 0.111900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 328530.055486 seconds.
+  path: Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/ICornerBR.prefab
+  artifactKey: Guid(f37aa0872a7453f4bae4f783490dbda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/DungeonTools/Prefabs/Walls/ICornerBR.prefab using Guid(f37aa0872a7453f4bae4f783490dbda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875821968408d2867dcd534caeef1406') in 0.235442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.845106 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Demo_Door.mat
+  artifactKey: Guid(44114bf3523a9494488c9aae1e358002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Demo_Door.mat using Guid(44114bf3523a9494488c9aae1e358002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c920bd3795d99645d44bf40ff43b29e9') in 0.061439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Demo_WallArch.mat
+  artifactKey: Guid(2887acd9ce3479746869c639df663d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Demo_WallArch.mat using Guid(2887acd9ce3479746869c639df663d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ff808579b560a5189eabc4f9d33c3e') in 0.031230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Stone_pillar.mat
+  artifactKey: Guid(10d9370a0fd08034aac7c33765577f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Stone_pillar.mat using Guid(10d9370a0fd08034aac7c33765577f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86d53afc24be7bac33664de2337eb1a') in 0.016668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Dungeon_tile.mat
+  artifactKey: Guid(957f2e82fab6e014ab2de560e2d0fc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Dungeon_tile.mat using Guid(957f2e82fab6e014ab2de560e2d0fc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec2f11d7ae89b6851e5384e47fc1ad9') in 0.019760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Skybox_Mat.mat
+  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1925a22307520846b7570d0537082a8') in 0.024149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Stone_floor.mat
+  artifactKey: Guid(22dc03047528c1840b755d7c1b2b3985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/Stone_floor.mat using Guid(22dc03047528c1840b755d7c1b2b3985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bf1af850c62957a339fe4502e57a7d') in 0.014804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/StoneWallv2.mat
+  artifactKey: Guid(6fc85a2cf71c1ad4f928c29676ef1e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Materials/StoneWallv2.mat using Guid(6fc85a2cf71c1ad4f928c29676ef1e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8a18d6033f116b43d0b92f50488978') in 0.025417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.941515 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DividerWallArchPaint_pbr_specular.png
+  artifactKey: Guid(7bae8e4339131d94cb1ce433fcbdff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DividerWallArchPaint_pbr_specular.png using Guid(7bae8e4339131d94cb1ce433fcbdff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edf4fbcface0cdbcbe2d72f56261aae') in 0.099935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Stone_WallPaint_Bake1_pbr_specular.png
+  artifactKey: Guid(aa80553458ff704418339c836f86f598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Stone_WallPaint_Bake1_pbr_specular.png using Guid(aa80553458ff704418339c836f86f598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ac4372c8acdadbe03abbf14e737007') in 0.018318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DividerWallPaint_pbr_roughness.png
+  artifactKey: Guid(6577e610236e1bb48a49eae3981c0498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DividerWallPaint_pbr_roughness.png using Guid(6577e610236e1bb48a49eae3981c0498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0deb2d615b06dfe360f7714fc97925d') in 0.015839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Stone_FloorPaint_Bake1_pbr_diffuse.png
+  artifactKey: Guid(c5f2c01b8793d384386a486315f7ef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Stone_FloorPaint_Bake1_pbr_diffuse.png using Guid(c5f2c01b8793d384386a486315f7ef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102f7106583d98007e9a8fe47eb12ac3') in 0.016288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Stone_WallPaint_Bake1_pbr_normal.png
+  artifactKey: Guid(8212b00abc60bf24ca7dd9e1d09813c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Stone_WallPaint_Bake1_pbr_normal.png using Guid(8212b00abc60bf24ca7dd9e1d09813c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6dbefa3f04a927dcce23dfd502e3469') in 0.022739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DividerWallWindowsPaint_pbr_roughness.png
+  artifactKey: Guid(758fc044a17374d47a364a6a19b18858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DividerWallWindowsPaint_pbr_roughness.png using Guid(758fc044a17374d47a364a6a19b18858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0480f3aa2345d2bd19d5353fc1b3fd64') in 0.014003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DividerWallWindowsPaint_pbr_specular.png
+  artifactKey: Guid(22dd3db6f949578469ea8effa5f4cc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DividerWallWindowsPaint_pbr_specular.png using Guid(22dd3db6f949578469ea8effa5f4cc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7306666d97f9ad7826836675228d41b6') in 0.012777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_PillarPaint_pbr_roughness.png
+  artifactKey: Guid(9d5cfe794613dc540b12b176b030bf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_PillarPaint_pbr_roughness.png using Guid(9d5cfe794613dc540b12b176b030bf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256361f8d3654ce8652b32158d7c5a0f') in 0.013531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DividerWallWindowsPaint_pbr_diffuse.png
+  artifactKey: Guid(97e5e0a6ad42fec43b2127d36369fcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_DividerWallWindowsPaint_pbr_diffuse.png using Guid(97e5e0a6ad42fec43b2127d36369fcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7203657fd42e7b8f1db00d1ce4bb453a') in 0.011740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_FloorPaint_pbr_normal.png
+  artifactKey: Guid(daadefd73795fa043a59482e283e2b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Demo_FloorPaint_pbr_normal.png using Guid(daadefd73795fa043a59482e283e2b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f83111cb684627ca4cdaad24f8151e3') in 0.013803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Stone_PillarPaint_Bake1_pbr_roughness.png
+  artifactKey: Guid(df8c54251d609564bb392abe2409120a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/QuaysideGames/TileDungeon/Art/Textures/Stone_PillarPaint_Bake1_pbr_roughness.png using Guid(df8c54251d609564bb392abe2409120a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd760ffa27077cd681f5f62c8613e02b1') in 0.014831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.609258 seconds.
+  path: Assets/Modelsandtextures/Free Fantasy Adventure Music Pack/Bards_Solo__1_Min_Harp.wav
+  artifactKey: Guid(a72be6dbb33ae1d48b44895f4943bee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Free Fantasy Adventure Music Pack/Bards_Solo__1_Min_Harp.wav using Guid(a72be6dbb33ae1d48b44895f4943bee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd73f3b73fea8e03bb256e796166b2dd') in 0.067168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Modelsandtextures/Free Fantasy Adventure Music Pack/Gathering_of_the_Dark_Hordes__1_Min_Loop.wav
+  artifactKey: Guid(68db71da3f965874fbf8c6646524d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelsandtextures/Free Fantasy Adventure Music Pack/Gathering_of_the_Dark_Hordes__1_Min_Loop.wav using Guid(68db71da3f965874fbf8c6646524d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48e1bb0b1e5376e542bf3b60264bc50') in 0.014296 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,314 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16331 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+63604
+Successfully changed project path to: C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
+C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 103.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   27.20.22016.2
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013132 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 92.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.735 seconds
+Domain Reload Profiling:
+	ReloadAssembly (735ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (509ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (78ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010521 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ebony Bloodmoon\OneDrive\Documents\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ebony Bloodmoon\OneDrive\Documents\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.151 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1152ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (809ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3508 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 3962.
+Memory consumption went from 131.8 MB to 130.4 MB.
+Total: 3.462500 ms (FindLiveObjects: 0.340300 ms CreateObjectMapping: 0.095700 ms MarkObjects: 2.627300 ms  DeleteObjects: 0.397500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 320617.690756 seconds.
+  path: Assets/Textures/Flat Textures Pack/Textures/Cave_Cracks.png
+  artifactKey: Guid(a2cd67599aa6c4749a6d6dae988081e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Flat Textures Pack/Textures/Cave_Cracks.png using Guid(a2cd67599aa6c4749a6d6dae988081e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb6f62362e8a18ba54a7fbcd5d72d06') in 0.133591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/Flat Textures Pack/Textures/WInter_Snow_Rocks.png
+  artifactKey: Guid(f4a36263be3bcb547881e084946baece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Flat Textures Pack/Textures/WInter_Snow_Rocks.png using Guid(f4a36263be3bcb547881e084946baece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb6181ddf54055de82ae938d7e37b7e') in 0.019339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Textures/Flat Textures Pack/Textures/Summer_Roots.png
+  artifactKey: Guid(9160bb514caa5e641a0fc34cd91ce0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Flat Textures Pack/Textures/Summer_Roots.png using Guid(9160bb514caa5e641a0fc34cd91ce0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f9c58ba5db4bdd78142e158543c4f2') in 0.016215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/Flat Textures Pack/Textures/Summer_Dirt_A.png
+  artifactKey: Guid(14833b0b08b0a6945b0dd4f86360fe01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Flat Textures Pack/Textures/Summer_Dirt_A.png using Guid(14833b0b08b0a6945b0dd4f86360fe01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db8c284253f7d422e23f0dbc22485f3') in 0.028989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/Flat Textures Pack/Textures/Cave_Magma_B.png
+  artifactKey: Guid(f3f73fae8b0080b4b8c78a03d205b2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Flat Textures Pack/Textures/Cave_Magma_B.png using Guid(f3f73fae8b0080b4b8c78a03d205b2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87e9245a2b48571a9878015043cfa95') in 0.021345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Textures/Flat Textures Pack/Textures/Winter_FrozenGround.png
+  artifactKey: Guid(e2acd3ed2fb446544a34b648341c93fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Flat Textures Pack/Textures/Winter_FrozenGround.png using Guid(e2acd3ed2fb446544a34b648341c93fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05afa6e5af6c3133124e4fe9d773ec97') in 0.029227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/Flat Textures Pack/Textures/Winter_Flower.png
+  artifactKey: Guid(cc7b23b24df12264a97f682f65915163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Flat Textures Pack/Textures/Winter_Flower.png using Guid(cc7b23b24df12264a97f682f65915163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2454c2f6b02ebe15f6bc4dace83d25b') in 0.020819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/Flat Textures Pack/Textures/Summer_ForestRoad.png
+  artifactKey: Guid(5ba259208ad985146a301e08de183a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Flat Textures Pack/Textures/Summer_ForestRoad.png using Guid(5ba259208ad985146a301e08de183a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4706cd801cf1480e89921e33566b5f') in 0.019830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/Flat Textures Pack/Textures/Cave_Magma.png
+  artifactKey: Guid(d028d237290dff545b1ac2636948f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Flat Textures Pack/Textures/Cave_Magma.png using Guid(d028d237290dff545b1ac2636948f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6018312c0e5cdf9260888d20ee5b85') in 0.022621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/Flat Textures Pack/Textures/Winter_IceCliff.png
+  artifactKey: Guid(e9f0a30aa83fca9418d176218fd919b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Flat Textures Pack/Textures/Winter_IceCliff.png using Guid(e9f0a30aa83fca9418d176218fd919b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93be71f839267d3d8808c19a3935081') in 0.021663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.103702 seconds.
+  path: Assets/Textures/Vol_26_2_Cliffs.mat
+  artifactKey: Guid(0c2d13c3615510e4a8debaef5c39c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Vol_26_2_Cliffs.mat using Guid(0c2d13c3615510e4a8debaef5c39c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856375258e2124ca4288a3f302a254b1') in 0.120128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.909083 seconds.
+  path: Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_a.png
+  artifactKey: Guid(f0bf8c83046d9e546b17e2e78cb06782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_a.png using Guid(f0bf8c83046d9e546b17e2e78cb06782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11557ec0e9b39f099c6eeaf4281a0f0') in 0.010824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.441240 seconds.
+  path: Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_p.PNG
+  artifactKey: Guid(b036abf3f368ff040857bfa944614491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_p.PNG using Guid(b036abf3f368ff040857bfa944614491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ecfdb202726f39b5746b85cc42cfdfa') in 0.013704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 118.533452 seconds.
+  path: Assets/Textures/Flat Textures Pack/Textures
+  artifactKey: Guid(5f6e8344c3218d44f8fd29234066aff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Flat Textures Pack/Textures using Guid(5f6e8344c3218d44f8fd29234066aff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ca532e9fbd6fa1d2c1530c6cb3f6cf') in 0.003184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.661040 seconds.
+  path: Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle
+  artifactKey: Guid(e487ef672f54b5844bd8ea2421ecb835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle using Guid(e487ef672f54b5844bd8ea2421ecb835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8c350c8397cde9931a06e65dbf5d78') in 0.003718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.432458 seconds.
+  path: Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_b.png
+  artifactKey: Guid(86ef744ae4668ec4c9982ac0e1b9e798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_b.png using Guid(86ef744ae4668ec4c9982ac0e1b9e798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd917a8d9e3dd34604089403bc86bddb9') in 0.015861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_e.png
+  artifactKey: Guid(f39642443835755419957ef831f9285c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_e.png using Guid(f39642443835755419957ef831f9285c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022ab905e15360f730e30e8778fa9e16') in 0.013343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_h.png
+  artifactKey: Guid(2bda500125ef75442b1f3a6c3573c46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_h.png using Guid(2bda500125ef75442b1f3a6c3573c46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d715f1a06273e1fb08fdb0574a9544a') in 0.014308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_l.png
+  artifactKey: Guid(b1592fe77e8a05840ab9991475fa373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_l.png using Guid(b1592fe77e8a05840ab9991475fa373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b932fed18c7624ba579a5be50ed4351') in 0.015437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_f.png
+  artifactKey: Guid(a99b8f27dc0c33c4eae10f0d03ae30b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_f.png using Guid(a99b8f27dc0c33c4eae10f0d03ae30b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4969a0567c6cf390259505a81983710d') in 0.014742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_m.png
+  artifactKey: Guid(bae79da2a41ad7346bc71d21593fa321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_m.png using Guid(bae79da2a41ad7346bc71d21593fa321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96de7408e5ca64c416f06064cb52986') in 0.010215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_n.PNG
+  artifactKey: Guid(e0fa5b1961b0f2046bb070d01892367e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_n.PNG using Guid(e0fa5b1961b0f2046bb070d01892367e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7543f1a88ebba489bad0828ae86aed64') in 0.013083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062842 seconds.
+  path: Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials
+  artifactKey: Guid(8c68b799753d93c4685e1e6edbeb037d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials using Guid(8c68b799753d93c4685e1e6edbeb037d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145b47dd2fde660a3eb526f1fb6bf772') in 0.002911 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
