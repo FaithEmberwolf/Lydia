@@ -2,35 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
 
-public GameObject PopUpScreen;
+    public GameObject PopUpScreen;
+    public TextMeshProUGUI pupUpHeadingHUD; 
+    public TextMeshProUGUI popUpTextHUD;
 
-public TextMeshProUGUI popUpHeadingHUD;
-public TextMeshProUGUI popUpTextHUD;
+    public string currentPopUpHeading;
+    public string currentPopUpText;
+   
 
-public string currentPopUpHeading;
-public string currentPopUpText;
+    public void TurnOnPopUp(string popUpHeading, string popUpText)
+    {
+        currentPopUpHeading = popUpHeading;
+        currentPopUpText = popUpText;
+        PopUpScreen.SetActive(true);
+    }
 
+    public void TurnOffPopUp()
+    {
+        PopUpScreen.SetActive(false);
+    }
+   
 
-public void TurnOnPopUp(string popUpHeading, string popUpText)
-{
-   currentPopUpHeading = popUpHeading;
-   currentPopUpText = popUpText;
-   PopUpScreen.SetActive(true);
-}
-
-public void TurnOffPopUp()
-{
-  PopUpScreen.SetActive(false);
-}
-
-void Update()
-{
-
-  popUpHeadingHUD.text = currentPopUpHeading;
-  popUpTextHUD.text = currentPopUpText;
-}
+    // Update is called once per frame
+    void Update()
+    {
+        pupUpHeadingHUD.text = currentPopUpHeading;
+        popUpTextHUD.text = currentPopUpText;
+    }
 }
