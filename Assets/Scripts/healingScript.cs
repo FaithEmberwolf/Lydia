@@ -15,19 +15,12 @@ public class healingScript : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<playerStats>().gainhealth = true;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if(other.gameObject.tag == "Player")
-        {
-            other.gameObject.GetComponent<playerStats>().gainhealth = false;
+            other.gameObject.GetComponent<playerStats>().heal(50f);
+            gameObject.SetActive(false);
         }
     }
 }

@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16331 MB
+OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 32710 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+C:\Program Files\Unity 2021.3.6f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
+F:/GAD170/Brief 3 Lydia's Adventure
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-63604
-Successfully changed project path to: C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
-C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
+56753
+Successfully changed project path to: F:/GAD170/Brief 3 Lydia's Adventure
+F:/GAD170/Brief 3 Lydia's Adventure
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,118 +47,110 @@ C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 105.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Ebony Bloodmoon/OneDrive/Documents/Lydia's short adventure/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/GAD170/Brief 3 Lydia's Adventure/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
-    Vendor:   ATI
-    VRAM:     8147 MB
-    Driver:   27.20.22016.2
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8041 MB
+    Driver:   31.0.15.1693
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Mono path[0] = 'C:/Program Files/Unity 2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011547 seconds.
+Register platform support module: C:/Program Files/Unity 2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004443 seconds.
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for AppleTV target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 84.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.650 seconds
+- Completed reload, in  0.462 seconds
 Domain Reload Profiling:
-	ReloadAssembly (651ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (462ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (456ms)
-			LoadAssemblies (80ms)
+		EndReloadAssembly (330ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (102ms)
+			SetupTypeCache (66ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (281ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (211ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (68ms)
+				InitializePlatformSupportModulesInManaged (30ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
+				RefreshPlugins (65ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (85ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010323 seconds.
+Registered in 0.005479 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ebony Bloodmoon\OneDrive\Documents\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ebony Bloodmoon\OneDrive\Documents\Lydia's short adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image F:\GAD170\Brief 3 Lydia's Adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\GAD170\Brief 3 Lydia's Adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.279 seconds
+- Completed reload, in  0.707 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1279ms)
-		BeginReloadAssembly (228ms)
+	ReloadAssembly (707ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (125ms)
-		EndReloadAssembly (903ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (549ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (379ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (272ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3508 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 3962.
-Memory consumption went from 131.7 MB to 130.4 MB.
-Total: 3.263400 ms (FindLiveObjects: 0.335100 ms CreateObjectMapping: 0.091600 ms MarkObjects: 2.513700 ms  DeleteObjects: 0.321800 ms)
+Unloading 3565 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.4 MB). Loaded Objects now: 4020.
+Memory consumption went from 136.1 MB to 134.7 MB.
+Total: 2.497300 ms (FindLiveObjects: 0.174100 ms CreateObjectMapping: 0.087100 ms MarkObjects: 1.972800 ms  DeleteObjects: 0.262700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,136 +164,124 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 320297.298213 seconds.
-  path: Assets/Basic Metal Texture Pack/Materials/metal01_diffuse.mat
-  artifactKey: Guid(2a8234130e7aeb8488b60a145af9e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Basic Metal Texture Pack/Materials/metal01_diffuse.mat using Guid(2a8234130e7aeb8488b60a145af9e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e3492f4cd5033d4ed6847578af3e7d') in 0.363515 seconds 
+  Time since last request: 2653.748732 seconds.
+  path: Assets/Kawaii Slimes/Models/Top/Crown.fbx
+  artifactKey: Guid(7f9934f54349dc2489d80b0298740ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii Slimes/Models/Top/Crown.fbx using Guid(7f9934f54349dc2489d80b0298740ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9711c0dd6d996ce8f11608635f35f704') in 0.151179 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 309.630061 seconds.
-  path: Assets/Textures/Cliff_3.mat
-  artifactKey: Guid(1eb9b6c65f4726346a9f918c3a07eab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Cliff_3.mat using Guid(1eb9b6c65f4726346a9f918c3a07eab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648eddf734e87a6ca37cc620d48b417d') in 0.044868 seconds 
+  Time since last request: 0.000013 seconds.
+  path: Assets/Kawaii Slimes/Models/Slimes/Slime_02.fbx
+  artifactKey: Guid(056784e08510fd1478dd0ae22b90765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii Slimes/Models/Slimes/Slime_02.fbx using Guid(056784e08510fd1478dd0ae22b90765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f44d127db28d7f317f50d5c6decc9f') in 0.057918 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Textures/fx_Magiccircle_g.mat
-  artifactKey: Guid(76783b993c15aef41afffc2c7fcfc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/fx_Magiccircle_g.mat using Guid(76783b993c15aef41afffc2c7fcfc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e728b35eea6b617acfeddd8d8ce12b') in 0.018440 seconds 
+  Time since last request: 2.008473 seconds.
+  path: Assets/Kawaii Slimes/Models/Slimes/Slime_03.fbx
+  artifactKey: Guid(a2f1a2a97ec26bb47825031d7f3e94f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii Slimes/Models/Slimes/Slime_03.fbx using Guid(a2f1a2a97ec26bb47825031d7f3e94f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5fed06fa7e8835c0a2fbfa5c2364dc') in 0.036413 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Textures/fx_Magiccircle_l.mat
-  artifactKey: Guid(63ad41232ad5c9746b0a38dfceb1d670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/fx_Magiccircle_l.mat using Guid(63ad41232ad5c9746b0a38dfceb1d670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dbe6bbb9cb42ea2cf48de0ed6b0eb9') in 0.014477 seconds 
+  Time since last request: 0.494844 seconds.
+  path: Assets/Kawaii Slimes/Models/Top/VikingHelmet.fbx
+  artifactKey: Guid(2e6931140dfc0a342b8aaca58929e860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii Slimes/Models/Top/VikingHelmet.fbx using Guid(2e6931140dfc0a342b8aaca58929e860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab9d2daf062706caa5df402ee08cf0b') in 0.142885 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Textures/fx_Magiccircle_m.mat
-  artifactKey: Guid(d994dcc02355b664f91f6763a3f5fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/fx_Magiccircle_m.mat using Guid(d994dcc02355b664f91f6763a3f5fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c161a214f814088c73d215d4e21dbad') in 0.015684 seconds 
+  Time since last request: 33.418956 seconds.
+  path: Assets/Models/Kawaii Slimes/Materials/Slime 3
+  artifactKey: Guid(7fd0fd4435dfc4f49aebbce611d63e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kawaii Slimes/Materials/Slime 3 using Guid(7fd0fd4435dfc4f49aebbce611d63e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047eafad0a57a5da466da3f1de6ea995') in 0.134362 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Textures/fx_Magiccircle_d.mat
-  artifactKey: Guid(a68e442f284a10b49b4b6ebca9fa70d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/fx_Magiccircle_d.mat using Guid(a68e442f284a10b49b4b6ebca9fa70d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37d7b21ba43823d0ebf48736cc4d640') in 0.014318 seconds 
+  Time since last request: 518.951107 seconds.
+  path: Assets/Snowconesolid Assets
+  artifactKey: Guid(4d83166248309fb4a8167cb7369375d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets using Guid(4d83166248309fb4a8167cb7369375d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f92bec99175aa17af16e49bcd2c2fa4') in 0.132629 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Textures/fx_Magiccircle_e.mat
-  artifactKey: Guid(b9f5faee6ac111d4aba8d4cb3de2c4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/fx_Magiccircle_e.mat using Guid(b9f5faee6ac111d4aba8d4cb3de2c4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd272950a9c24770d0ee261768795741f') in 0.013214 seconds 
+  Time since last request: 3.526005 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack
+  artifactKey: Guid(eabd8e3dcd5ac16498496e0e1084f79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack using Guid(eabd8e3dcd5ac16498496e0e1084f79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7defef96a55aa37ebc6af7a2673aa53c') in 0.143678 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Textures/fx_Magiccircle_p.mat
-  artifactKey: Guid(c5d094d16bc54e244ad02c2cd42076e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/fx_Magiccircle_p.mat using Guid(c5d094d16bc54e244ad02c2cd42076e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eaa789c3513639b6ea2890aebde43ab') in 0.013755 seconds 
+  Time since last request: 1.859986 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS
+  artifactKey: Guid(99bd8ba3b4110a3459747bc741e02dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS using Guid(99bd8ba3b4110a3459747bc741e02dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699b0e94eb428724a1ef9aee9fe237dd') in 0.030617 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Textures/fx_Magiccircle_h.mat
-  artifactKey: Guid(588dd90f19a3b56478b3cde837884643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/fx_Magiccircle_h.mat using Guid(588dd90f19a3b56478b3cde837884643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6944b030d78798c42f35d062df62797') in 0.017246 seconds 
+  Time since last request: 0.048219 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Black.prefab
+  artifactKey: Guid(26f8b9578f5720d4bbcf8c9fa6c64c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Black.prefab using Guid(26f8b9578f5720d4bbcf8c9fa6c64c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6010fe5a92e04092c6188a5a2fa753d5') in 0.304662 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.177758 seconds.
-  path: Assets/Textures/Flat Textures Pack/Textures/Cave_Crystal_A.png
-  artifactKey: Guid(44574b134f468f746bb51c8099e9fddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Flat Textures Pack/Textures/Cave_Crystal_A.png using Guid(44574b134f468f746bb51c8099e9fddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc8335727ba2f9c45bc340d9bd630f6') in 0.056282 seconds 
+  Time since last request: 0.000015 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Pink.prefab
+  artifactKey: Guid(d7f6c8d4003a7324d891a38d7d816b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Pink.prefab using Guid(d7f6c8d4003a7324d891a38d7d816b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecfd26e70015eee376b7f40adb99e51') in 0.056811 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Textures/Flat Textures Pack/Textures/Winter_Cracked_Ice_C.png
-  artifactKey: Guid(ac9df218827ab504e93d6862617b2de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Flat Textures Pack/Textures/Winter_Cracked_Ice_C.png using Guid(ac9df218827ab504e93d6862617b2de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19224d799ddb468ee526c7e2c3268b79') in 0.019112 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_LightPurple.prefab
+  artifactKey: Guid(3201cb2c501acd849a7aaf3c87382969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_LightPurple.prefab using Guid(3201cb2c501acd849a7aaf3c87382969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c58dcd7fc5cc5de189cdac74baa8bde') in 0.031687 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Textures/Flat Textures Pack/Textures/Desert_Bushes.png
-  artifactKey: Guid(374f043a3f99333449e20804007556c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Flat Textures Pack/Textures/Desert_Bushes.png using Guid(374f043a3f99333449e20804007556c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a6b8825768978e069c3dc18d37739e') in 0.020689 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Purple.prefab
+  artifactKey: Guid(c94b98a83deadaf4489a5de7b7d94741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Purple.prefab using Guid(c94b98a83deadaf4489a5de7b7d94741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9973db0307fcb989694384871a1da1b6') in 0.031709 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Textures/Flat Textures Pack/Textures/Summer_Flowers.png
-  artifactKey: Guid(0d0a4eda378924a488fc68a509785635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Flat Textures Pack/Textures/Summer_Flowers.png using Guid(0d0a4eda378924a488fc68a509785635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee20488214812041b4ed9bd5e5c9752') in 0.026991 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Orange.prefab
+  artifactKey: Guid(ed2b77dfb9ab3ba44a2e7f72cd768104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Orange.prefab using Guid(ed2b77dfb9ab3ba44a2e7f72cd768104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9ccfe0df3c6745cb7b8d8b88ac336b') in 0.046369 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Textures/Flat Textures Pack/Textures/Winter_Spores.png
-  artifactKey: Guid(59569d2ed7e8b7047be6fb0008e4f048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Flat Textures Pack/Textures/Winter_Spores.png using Guid(59569d2ed7e8b7047be6fb0008e4f048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40925f9e64917631772036f3aae71417') in 0.020623 seconds 
+  Time since last request: 0.000015 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Yellow.prefab
+  artifactKey: Guid(47eccfdaaa8490246bb90d54bab6ccbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Yellow.prefab using Guid(47eccfdaaa8490246bb90d54bab6ccbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f57befbbb5124894f05a0ec5ce734d3') in 0.021251 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Textures/Flat Textures Pack/Textures/Summer_Roses.png
-  artifactKey: Guid(330b1e96b6c1f3445ba9f4133e803a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Flat Textures Pack/Textures/Summer_Roses.png using Guid(330b1e96b6c1f3445ba9f4133e803a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0d8219044ee8403cd24ceb31be31c8') in 0.015664 seconds 
+  Time since last request: 0.000013 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_YinYang.prefab
+  artifactKey: Guid(b96e628b5d32d92478c57b861ec765cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_YinYang.prefab using Guid(b96e628b5d32d92478c57b861ec765cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fd3e5b684c38a6d86ff4b14941e084') in 0.031824 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Textures/Flat Textures Pack/Textures/Winter_Moss.png
-  artifactKey: Guid(df43085a593068e4a8a5f9b8bfce1e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Flat Textures Pack/Textures/Winter_Moss.png using Guid(df43085a593068e4a8a5f9b8bfce1e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e15837c8c8171d79c4854b0a902015') in 0.026840 seconds 
+  Time since last request: 5.091127 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS (Mobile)/RubberDuck_Black_MOBILE.prefab
+  artifactKey: Guid(efd1bfaf561eb024eb04cca4386b28b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS (Mobile)/RubberDuck_Black_MOBILE.prefab using Guid(efd1bfaf561eb024eb04cca4386b28b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b35432b4d71a13b37826f499bc4b7c4') in 0.149657 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Textures/Flat Textures Pack/Textures/Summer_Wall.png
-  artifactKey: Guid(b6729a0d44c32e94a9e0ead2606f79a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Flat Textures Pack/Textures/Summer_Wall.png using Guid(b6729a0d44c32e94a9e0ead2606f79a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845345784046e697a1246aad0826f152') in 0.021741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Textures/Flat Textures Pack/Textures/Winter_ce_Cracked_B.png
-  artifactKey: Guid(aec36e83e2786ac41afbe9372e4e4067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Flat Textures Pack/Textures/Winter_ce_Cracked_B.png using Guid(aec36e83e2786ac41afbe9372e4e4067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc556f58ccca908fdcda8536edf4d02') in 0.015087 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS (Mobile)/RubberDuck_White_MOBILE.prefab
+  artifactKey: Guid(bfdf3dabf454006488fdee32f58e8f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS (Mobile)/RubberDuck_White_MOBILE.prefab using Guid(bfdf3dabf454006488fdee32f58e8f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca0b7efb0a774d19385e6fcaf31207f') in 0.042386 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Textures/Flat Textures Pack/Textures/Water_D.png
-  artifactKey: Guid(60cabeb742477d54fbe159e9061f335d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Flat Textures Pack/Textures/Water_D.png using Guid(60cabeb742477d54fbe159e9061f335d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d39934d9d74751697e2b5e4b21d2331') in 0.025322 seconds 
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS (Mobile)/RubberDuck_Pond_MOBILE.prefab
+  artifactKey: Guid(9b1a8336b6b50524ca12bbc9a033a9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS (Mobile)/RubberDuck_Pond_MOBILE.prefab using Guid(9b1a8336b6b50524ca12bbc9a033a9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ed84be4bcc724042ebd3dcf907d4b0') in 0.041675 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Textures/Flat Textures Pack/Textures/Winter_IceCave.png
-  artifactKey: Guid(4a3e8f1cd37ac564f8f0c0a80b080c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Flat Textures Pack/Textures/Winter_IceCave.png using Guid(4a3e8f1cd37ac564f8f0c0a80b080c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b70209a50cad3c233e6b90e7c065b0') in 0.038738 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS (Mobile)/RubberDuck_LightPurple_MOBILE.prefab
+  artifactKey: Guid(9ce315f61f09cd24c8f9835c3ef8fc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS (Mobile)/RubberDuck_LightPurple_MOBILE.prefab using Guid(9ce315f61f09cd24c8f9835c3ef8fc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947cd18f087a36524d59fee0e86b071d') in 0.016222 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Textures/Flat Textures Pack/Textures/Summer_Mud_A.png
-  artifactKey: Guid(ccbae51c789c51e4682f749aa91ce1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Flat Textures Pack/Textures/Summer_Mud_A.png using Guid(ccbae51c789c51e4682f749aa91ce1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39af0230aa3e7f6cc01354ab903ad762') in 0.020007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Textures/Flat Textures Pack/Textures/Cave_Poison.png
-  artifactKey: Guid(bdbfd93040393854cb6e0e0af9b8d3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Flat Textures Pack/Textures/Cave_Poison.png using Guid(bdbfd93040393854cb6e0e0af9b8d3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b05b40afbe526560e7c5bae0b3eec6') in 0.022012 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS (Mobile)/RubberDuck_GreenDark_MOBILE.prefab
+  artifactKey: Guid(6ae48d75a0448e646ba66e87cfde06fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS (Mobile)/RubberDuck_GreenDark_MOBILE.prefab using Guid(6ae48d75a0448e646ba66e87cfde06fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1054b257699571a077042415eed05f3') in 0.025486 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

@@ -8,7 +8,7 @@ public class GameController : MonoBehaviour
 {
 
     public GameObject PopUpScreen;
-    public TextMeshProUGUI pupUpHeadingHUD; 
+    public TextMeshProUGUI popUpHeadingHUD; 
     public TextMeshProUGUI popUpTextHUD;
 
     public string currentPopUpHeading;
@@ -25,13 +25,14 @@ public class GameController : MonoBehaviour
     public void TurnOffPopUp()
     {
         PopUpScreen.SetActive(false);
+        //gameObject.GetComponent<PlayerMovement>().SetActive(true);
     }
    
 
     // Update is called once per frame
     void Update()
     {
-        pupUpHeadingHUD.text = currentPopUpHeading;
+        popUpHeadingHUD.text = currentPopUpHeading;
         popUpTextHUD.text = currentPopUpText;
     }
 }
