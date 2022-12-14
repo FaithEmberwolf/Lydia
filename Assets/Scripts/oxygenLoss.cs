@@ -19,7 +19,7 @@ public class oxygenLoss : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<playerStats>().drowning = true;
+            other.gameObject.GetComponent<PlayerStatsTwo>().drowning = true;
         }
     }
 
@@ -27,8 +27,8 @@ public class oxygenLoss : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<playerStats>().drowning = false;
-            other.gameObject.GetComponent<playerStats>().breathing = true;
+            other.gameObject.GetComponent<PlayerStatsTwo>().drowning = false;
+            other.gameObject.GetComponent<PlayerStatsTwo>().breathing = true;
         }
     }
 }
