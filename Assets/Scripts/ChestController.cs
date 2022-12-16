@@ -5,7 +5,9 @@ using UnityEngine;
 public class ChestController : MonoBehaviour
 {
 
-        
+        public GameObject Appear;
+        public GameObject AppearTwo;
+        public GameObject AppearThree;
 
     // Start is called before the first frame update
     private void Start()
@@ -17,6 +19,9 @@ public class ChestController : MonoBehaviour
 
     private void OnBlocksAppear()
     {
-       gameObject.SetActive(true);
+       Appear.SetActive(true);
+       AppearTwo.SetActive(true);
+       AppearThree.SetActive(true);
+       
     }
 }

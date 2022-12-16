@@ -29,7 +29,7 @@ public class playerStats : MonoBehaviour
     {
         if (poisoned == true)
         {
-            takeDamage(0.05f);
+            takeDamage(0.1f);
         }
         
         if (gainhealth == true)
