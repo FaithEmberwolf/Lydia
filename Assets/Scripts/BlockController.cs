@@ -5,11 +5,10 @@ using UnityEngine;
 public class BlockController : MonoBehaviour
 {
     
-    bool redCrystalinBackpack;
-    // Start is called before the first frame update
+   // Start is called before the first frame update
     void Start()
     {
-       NewEventBus.current.onChestTriggerBlocks += ChestTriggerBlocks;
+       GameEvents.current.onChestTriggerBlocks += ChestTriggerBlocks;
     }
 
     // Update is called once per frame

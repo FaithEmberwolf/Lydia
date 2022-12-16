@@ -9,7 +9,7 @@ public class ChestTrigger : MonoBehaviour
 {
     if(other.gameObject.tag == "Player")
     {
-    NewEventBus.current.ChestTriggerBlocks();
+    GameEvents.current.ChestTriggerBlocks();
     }
 }
 }
