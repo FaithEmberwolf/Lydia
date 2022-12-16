@@ -9,14 +9,14 @@ public GameObject gameController;
 
 public GameObject PopUpScreen;
 
-public string customPupUpHeading;
+public string customPopUpHeading;
 public string customPopUpText;
 
 void OnTriggerEnter(Collider other)
 {
   if (other.gameObject.tag == "Player")
   {
-      gameController.GetComponent<GameController>().TurnOnPopUp(customPupUpHeading, customPopUpText);
+      gameController.GetComponent<GameController>().TurnOnPopUp(customPopUpHeading, customPopUpText);
       gameObject.SetActive(false); 
       //gameObject.GetComponent<PlayerMovement>().SetActive(false);
   }
