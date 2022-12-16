@@ -6,7 +6,7 @@ using TMPro;
 
 public class gameManager : MonoBehaviour
 {
-public GameManager gameController;
+public GameObject gameController;
 
 public string customPopUpHeading;
 public string customPopUpText;
@@ -15,7 +15,7 @@ void OnTriggerEnter(Collider other)
 {
   if (other.gameObject.tag == "Player")
   {
-      GetComponent<gameController>().popUp(customPopUpHeading, customPopUpText);
+      gameController.GetComponent<GameController>().TurnOnPopUp(customPopUpHeading, customPopUpText);
   }
 }
 }

@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using UnityEngine.UI;
 
 public class popUp : MonoBehaviour
 {
-public GameManager GameController;
+public GameObject GameController;
 
 public string customPopUpHeading;
 public string customPopUpText;
